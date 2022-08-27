@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bakajohn/static/css/main.30c5844a.css",
-    "main.js": "/bakajohn/static/js/main.ca755d7b.js",
+    "main.css": "/bakajohn/static/css/main.fe95b346.css",
+    "main.js": "/bakajohn/static/js/main.901880e7.js",
     "static/media/long_bg.png": "/bakajohn/static/media/long_bg.092093aaf89362e7437d.png",
     "static/media/temple.png": "/bakajohn/static/media/temple.4a6eb286e61d465fea5b.png",
     "static/media/roadmap.png": "/bakajohn/static/media/roadmap.51feb34e4fe86f6f71e2.png",
@@ -44,11 +44,11 @@
     "static/media/mint_frame.png": "/bakajohn/static/media/mint_frame.b6964bed8e367569c15f.png",
     "static/media/text_bg.png": "/bakajohn/static/media/text_bg.2dd4e1947920da58aa5d.png",
     "index.html": "/bakajohn/index.html",
-    "main.30c5844a.css.map": "/bakajohn/static/css/main.30c5844a.css.map",
-    "main.ca755d7b.js.map": "/bakajohn/static/js/main.ca755d7b.js.map"
+    "main.fe95b346.css.map": "/bakajohn/static/css/main.fe95b346.css.map",
+    "main.901880e7.js.map": "/bakajohn/static/js/main.901880e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.30c5844a.css",
-    "static/js/main.ca755d7b.js"
+    "static/css/main.fe95b346.css",
+    "static/js/main.901880e7.js"
   ]
 }
