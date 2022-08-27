@@ -29,7 +29,9 @@
 
 .left-arrow, .right-arrow {
     height: 20%;
+    cursor: pointer;
 }
+
 
 .nft-bg {
     display: flex;
