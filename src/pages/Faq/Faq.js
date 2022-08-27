@@ -2,7 +2,11 @@ import './Faq.css';
 
 const Faq = () => {
     return (
-        <div id='faq'></div>
+        <div id='faq'>
+            <p className='faq-content'>
+                Faq Texts...
+            </p>
+        </div>
     );
 }
 

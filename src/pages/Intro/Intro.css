@@ -19,14 +19,72 @@
     margin-bottom: 50px;
 }
 
+.intro-image {
+    display: flex;
+    width: 60%;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-arrow, .right-arrow {
+    height: 20%;
+}
+
+.nft-bg {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50px;
+}
+
 .text {
-    width: 55%;
-    font-size: 28px;
+    width: 60%;
+    padding: 30px;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    letter-spacing: 0.18em;
+    word-spacing: 0.18em;
+    background-image: url('../../images/text_bg.png');
+    background-size: 100% 100%;
+}
+
+.left-grid, .right-grid{
+    height: 100%;
+    width: 12%;
+    position: absolute;
+    transform: translateY(-50px);
+}
+
+.left-grid {
+    left: 2%;
+}
+
+.right-grid {
+    right: 2%;
 }
 
 @media only screen and (max-width: 600px) {
     .text {
-        width: 80%;
+        width: 75%;
         font-size: 20px;
+    }
+
+    .intro-image {
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        width: 80vw;
+    }
+
+    .side {
+        display: none;
+    }
+
+    .left-grid, .right-grid{
+        display: none;
     }
 }

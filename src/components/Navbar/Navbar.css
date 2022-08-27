@@ -1,6 +1,6 @@
 .navbar {
     width: 60%;
-    height: 400px;
+    height: 600px;
     position: sticky;
     margin-top: 20px;
     top: 20px;
@@ -9,11 +9,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 4;
     gap: 8%;
 }
 
 .nav-options {
-    font-size: 20px;
+    font-size: 1.8vw;
     font-family: Copperplate Gothic Light;
     font-weight: 900;
     cursor: pointer;

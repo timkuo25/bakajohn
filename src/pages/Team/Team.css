@@ -1,4 +1,9 @@
 #team {
     width: 100%;
     height: 100%;
+    display: flex;
+}
+
+.members {
+    width: 50%;
 }

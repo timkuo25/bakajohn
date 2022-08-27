@@ -1,30 +1,28 @@
 import './Mint.css';
-import dog from '../../images/dog.jpg';
 
-const Mint = () => {
+const Mint = ({ accounts, setAccounts }) => {
+    const isConnected = Boolean(accounts[0]);
+
+    const connectAccount = async () => {
+        if (!isConnected){
+            if (window.ethereum) {
+                const accounts = await window.ethereum.request({
+                    method: 'eth_requestAccounts',
+                });
+                setAccounts(accounts);
+            }
+        }
+        return;
+    }
+
+
     return (
         <div id='mint'>
             <div className='mint-container'>
-                <div className='mint-info'>
-                    <div className='mint-content'>
-                        Mint 內文 可以像 frame 2 直接放或做個框框
-                    </div>
-                    <div className='mint-function'>
-                        <input type="number"/>
-                        <button>Mint 鈕</button>
-                    </div>
-                </div>
-                <div className='mint-sample'>
-                    <div className='img-row'>
-                        <img src={dog} alt='dog' width={200}/>
-                        <img src={dog} alt='dog' width={200}/>
-                    </div>
-                    <div className='img-row'>
-                        <img src={dog} alt='dog' width={200}/>
-                        <img src={dog} alt='dog' width={200}/>
-                    </div>
-                    
-                </div>
+                <img src={require('../../images/nft/11.png')} width={300}></img>
+                <img className='hidden' src={require('../../images/nft/12.png')} width={300}></img>
+                <img className='hidden' src={require('../../images/nft/13.png')} width={300}></img>
+                <img className='hidden' src={require('../../images/nft/14.png')} width={300}></img>
             </div>
         </div>
     );
