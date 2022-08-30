@@ -49,9 +49,11 @@
     font-family: Copperplate Gothic;
     font-weight: bold;
     letter-spacing: 0.18em;
+    line-height: 1.2em;
     word-spacing: 0.18em;
-    background-image: url('../../images/text_bg.png');
-    background-size: 100% 100%;
+    border: 8px #ededed solid;
+    border-radius: 10px;
+    background-color: rgba(12, 12, 12, 0.7);
 }
 
 .left-grid, .right-grid{
@@ -67,6 +69,28 @@
 
 .right-grid {
     right: 2%;
+}
+
+.cloud-1 {
+    position: absolute;
+    left: 0%;
+}
+
+.cloud-2 {
+    position: absolute;
+    right: 0%;
+}
+.cloud-3 {
+    position: absolute;
+    left: 8%;
+    transform: translateY(200px);
+    width: 160px;
+}
+.cloud-4 {
+    position: absolute;
+    right: 0%;
+    transform: translateY(200px);
+    width: 400px;
 }
 
 @media only screen and (max-width: 600px) {

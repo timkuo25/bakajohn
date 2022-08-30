@@ -16,7 +16,13 @@
 }
 
 .footer-links{
+    width: 500px;
     display: flex;
-    justify-content: center;
-    gap: 50%;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-links{
+        width: 80%;
+    }
 }

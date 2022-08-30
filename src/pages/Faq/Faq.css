@@ -4,12 +4,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('../../images/faq/faq_bg.png');
+    background-size: 100% 100%;
+}
+
+.faq-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    min-height: 70%;
+    background-image: url('../../images/faq/faq_wordframe.png');
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: 16px;
+    font-family: Copperplate Gothic Light;
+    font-weight: 900;
+    letter-spacing: 0.2em;
 }
 
 .faq-content {
-    width: 95%;
-    height: 70%;
-    background-image: url('../../images/faq_wordframe.png');
-    background-size: 100% 100%;
-    color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.yellow {
+    color: rgba(255, 238, 0, 0.926);
+}
+
+.red {
+    color: red;
 }

@@ -19,10 +19,24 @@ const Mint = ({ accounts, setAccounts }) => {
     return (
         <div id='mint'>
             <div className='mint-container'>
-                <img src={require('../../images/nft/11.png')} width={'25%'}></img>
-                <img className='hidden' src={require('../../images/nft/12.png')} width={'25%'}></img>
-                <img className='hidden' src={require('../../images/nft/13.png')} width={'25%'}></img>
-                <img className='hidden' src={require('../../images/nft/14.png')} width={'25%'}></img>
+                <div className='nft-bg-mint'>
+                    <img className='mint-image' src={require('../../images/nft/11.png')}></img>
+                </div>
+                <div className='nft-bg-mint'>
+                    <img className='mint-image' src={require('../../images/nft/12.png')}></img>
+                </div>
+                <div className='nft-bg-mint'>
+                    <img className='mint-image' src={require('../../images/nft/13.png')}></img>
+                </div>
+                <div className='nft-bg-mint'>
+                    <img className='mint-image' src={require('../../images/nft/14.png')}></img>
+                </div>
+            </div>
+            <div className='mint-caption'>
+                #We'RE ALL BAKAJOHNS#
+            </div>
+            <div className='mint-date-caption'>
+                FREE MINT DATE: 9/17
             </div>
         </div>
     );

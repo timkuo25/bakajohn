@@ -3,6 +3,11 @@ import left_grid from '../../images/intro/left_grid.png';
 import right_grid from '../../images/intro/right_grid.png';
 import left_arrow from '../../images/intro/left_arrow.png';
 import right_arrow from '../../images/intro/right_arrow.png';
+import cloud_1 from '../../images/intro/cloud_1.png';
+import cloud_2 from '../../images/intro/cloud_2.png';
+import cloud_3 from '../../images/intro/cloud_3.png';
+import cloud_4 from '../../images/intro/cloud_4.png';
+
 import { useState } from 'react';
 // import HorizontalScroll from '../../components/HorizontalScroll/HorizontalScroll';
 
@@ -47,6 +52,11 @@ const Intro = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <img className='right-grid' src={right_grid}></img>
+            <img className='cloud-1 hidden' src={cloud_1}></img>
+            <img className='cloud-2 hidden' src={cloud_2}></img>
+            <img className='cloud-3 hidden' src={cloud_3}></img>
+            <img className='cloud-4 hidden' src={cloud_4}></img>
+            
         </div>
     );
 }

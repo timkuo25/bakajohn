@@ -3,8 +3,21 @@ import './Team.css';
 const Team = () => {
     return (
         <div id='team'>
-            <div className='members'></div>
-            <img src={require('../../images/team/team_john.png')} width={'50%'}></img>
+            <div className='members'>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+                <div className='member-bg'></div>
+            </div>
+            <img className='baka' src={require('../../images/team/team_john.png')} width={'40%'}></img>
         </div>
     );
 }

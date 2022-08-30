@@ -8,19 +8,17 @@
     justify-content: center;
 }
 
+/*  */
 .gallery-container{
-    width: 100%;
+    width: 90%;
     height: 60%;
-    background-image: url('../../images/gallery/gallery_frame.png');
-    background-size: 100% 100%;
+    background-color: rgba(12, 12, 12, 0.5);
+    border-radius: 50px;
+    border: solid 3px #c89393b3;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 20px; */
-}
-
-@media only screen and (max-width: 800px) {
-    .hidden {
-        display: none;
-    }
+    font-size: 500%;
+    color: #fff;
+    font-family: Copperplate Gothic Light;
 }
