@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/bakajohn/static/css/main.af522c6f.css",
-    "main.js": "/bakajohn/static/js/main.819cdef4.js",
+    "main.css": "/bakajohn/static/css/main.30abfda3.css",
+    "main.js": "/bakajohn/static/js/main.9859093a.js",
     "static/media/long_bg.png": "/bakajohn/static/media/long_bg.092093aaf89362e7437d.png",
     "static/media/temple.png": "/bakajohn/static/media/temple.4a6eb286e61d465fea5b.png",
-    "static/media/roadmap.png": "/bakajohn/static/media/roadmap.51feb34e4fe86f6f71e2.png",
+    "static/media/roadmap_bg.png": "/bakajohn/static/media/roadmap_bg.7911a17f985f430cd52f.png",
     "static/media/gallery_background.png": "/bakajohn/static/media/gallery_background.b5dd8b9e0240e0941878.png",
     "static/media/mint_background.png": "/bakajohn/static/media/mint_background.60ce02bcf53e17c4bd10.png",
+    "static/media/faq_bg.png": "/bakajohn/static/media/faq_bg.4bb6bb8333ddd5b9bd6e.png",
     "static/media/21.png": "/bakajohn/static/media/21.b154e49e63a1a7b20313.png",
     "static/media/9.png": "/bakajohn/static/media/9.54bfc76e77b1bbbc73b1.png",
     "static/media/2.png": "/bakajohn/static/media/2.98ad29e90b0f2f3dbdad.png",
@@ -37,18 +38,22 @@
     "static/media/27.png": "/bakajohn/static/media/27.0c70dcbc378c95849feb.png",
     "static/media/23.png": "/bakajohn/static/media/23.955e81a93f7287cbe43b.png",
     "static/media/team_john.png": "/bakajohn/static/media/team_john.e6aa9790a826b75c00a0.png",
+    "static/media/taiwan.png": "/bakajohn/static/media/taiwan.f7696fba879b7234d0e9.png",
     "static/media/footer_background.png": "/bakajohn/static/media/footer_background.8aadcf54a6018988fe57.png",
+    "static/media/cloud_4.png": "/bakajohn/static/media/cloud_4.d552ab4b05dcb6c0b8f0.png",
     "static/media/navbar.png": "/bakajohn/static/media/navbar.2f9bf32d7758802c60f5.png",
+    "static/media/roadmap.png": "/bakajohn/static/media/roadmap.514c2f22fe8ac5c71bec.png",
     "static/media/left_grid.png": "/bakajohn/static/media/left_grid.09f45a6e0123b472c4f2.png",
     "static/media/right_grid.png": "/bakajohn/static/media/right_grid.99f124294bfa64b80a85.png",
-    "static/media/mint_frame.png": "/bakajohn/static/media/mint_frame.b6964bed8e367569c15f.png",
-    "static/media/text_bg.png": "/bakajohn/static/media/text_bg.2dd4e1947920da58aa5d.png",
+    "static/media/cloud_1.png": "/bakajohn/static/media/cloud_1.4b977f2841c5270383c9.png",
+    "static/media/cloud_2.png": "/bakajohn/static/media/cloud_2.4b977f2841c5270383c9.png",
+    "static/media/cloud_3.png": "/bakajohn/static/media/cloud_3.af41a5e7b22277bd4349.png",
     "index.html": "/bakajohn/index.html",
-    "main.af522c6f.css.map": "/bakajohn/static/css/main.af522c6f.css.map",
-    "main.819cdef4.js.map": "/bakajohn/static/js/main.819cdef4.js.map"
+    "main.30abfda3.css.map": "/bakajohn/static/css/main.30abfda3.css.map",
+    "main.9859093a.js.map": "/bakajohn/static/js/main.9859093a.js.map"
   },
   "entrypoints": [
-    "static/css/main.af522c6f.css",
-    "static/js/main.819cdef4.js"
+    "static/css/main.30abfda3.css",
+    "static/js/main.9859093a.js"
   ]
 }
