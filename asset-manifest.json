@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bakajohn/static/css/main.30abfda3.css",
+    "main.css": "/bakajohn/static/css/main.3ab85e34.css",
     "main.js": "/bakajohn/static/js/main.9859093a.js",
     "static/media/long_bg.png": "/bakajohn/static/media/long_bg.092093aaf89362e7437d.png",
     "static/media/temple.png": "/bakajohn/static/media/temple.4a6eb286e61d465fea5b.png",
@@ -42,18 +42,18 @@
     "static/media/footer_background.png": "/bakajohn/static/media/footer_background.8aadcf54a6018988fe57.png",
     "static/media/cloud_4.png": "/bakajohn/static/media/cloud_4.d552ab4b05dcb6c0b8f0.png",
     "static/media/navbar.png": "/bakajohn/static/media/navbar.2f9bf32d7758802c60f5.png",
-    "static/media/roadmap.png": "/bakajohn/static/media/roadmap.514c2f22fe8ac5c71bec.png",
+    "static/media/roadmap.png": "/bakajohn/static/media/roadmap.c782266800e126e8b7ed.png",
     "static/media/left_grid.png": "/bakajohn/static/media/left_grid.09f45a6e0123b472c4f2.png",
     "static/media/right_grid.png": "/bakajohn/static/media/right_grid.99f124294bfa64b80a85.png",
     "static/media/cloud_1.png": "/bakajohn/static/media/cloud_1.4b977f2841c5270383c9.png",
     "static/media/cloud_2.png": "/bakajohn/static/media/cloud_2.4b977f2841c5270383c9.png",
     "static/media/cloud_3.png": "/bakajohn/static/media/cloud_3.af41a5e7b22277bd4349.png",
     "index.html": "/bakajohn/index.html",
-    "main.30abfda3.css.map": "/bakajohn/static/css/main.30abfda3.css.map",
+    "main.3ab85e34.css.map": "/bakajohn/static/css/main.3ab85e34.css.map",
     "main.9859093a.js.map": "/bakajohn/static/js/main.9859093a.js.map"
   },
   "entrypoints": [
-    "static/css/main.30abfda3.css",
+    "static/css/main.3ab85e34.css",
     "static/js/main.9859093a.js"
   ]
 }
