@@ -19,7 +19,7 @@ const Faq = () => {
                     </p>
                     <p>
                         IF I HOLD THIS NFT, WHAT CAN I DO?<br/>
-                        <span className='yellow'>→ YOU CAN DO NOTING.</span><br/>
+                        <span className='yellow'>→ YOU CAN DO NOTHING.</span><br/>
                     </p>
                 </div>
             </div>

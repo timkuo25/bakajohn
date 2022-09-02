@@ -7,7 +7,7 @@
 }
 
 .members {
-    width: 50%;
+    width: 45%;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -17,11 +17,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 12em;
-    width: 9em;
+    height: 9em;
+    width: 7em;
     background-color: rgb(40, 40, 40);
     border-radius: 1.5em;
     margin: 10px; 
+}
+
+.baka {
+    width: 40%;
 }
 
 @media only screen and (max-width: 1200px) {

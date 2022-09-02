@@ -45,7 +45,7 @@
     width: 60%;
     padding: 30px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Copperplate Gothic;
     font-weight: bold;
     letter-spacing: 0.18em;
@@ -90,7 +90,7 @@
     position: absolute;
     right: 0%;
     transform: translateY(200px);
-    width: 400px;
+    width: 300px;
 }
 
 @media only screen and (max-width: 600px) {

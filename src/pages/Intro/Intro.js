@@ -44,12 +44,24 @@ const Intro = () => {
                 <img className='right-arrow' src={right_arrow} onClick={() => changeImage(true)}></img>
             </div>
             <p className='text'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Once upon a time, there was a guy named John. John is a lovely person who likes to play the guitar. John has a beautiful girlfriend, Jenny. Every 14th of every month, John always created a song for Jenny. Like every boy falling in love, he can do anything for his lover just to see her smile. 
+            <br/><br/>
+            However, things were not going well all the time. Jenny was attracted to another guy, "Bagajong" from Taiwan. Jenny was obsessed with Bagajong's tattoo and his fierce appearance. In the end, Jenny cuckolded John and started a relationship with Bagajong. 
+            <br/><br/>
+            After losing the love of his life, John lost his mind entirely. He became angry day by day. Finally, he becomes Bakajohn
+            <br/><br/>
+
+            ---
+            <br/><br/>
+
+            Every Bakajohn is a free mint dynamic NFT collectible. After each transaction, our picture will change its characteristics. It's a nice guy at first, but it will become more and more angry.
+            <br/><br/>
+
+            - step 1 - Normal
+            <br/>
+            - step 2 - Hair + Facial expression
+            <br/>
+            - step 3 - Clothes + Accessories 
             </p>
             <img className='right-grid' src={right_grid}></img>
             <img className='cloud-1 hidden' src={cloud_1}></img>

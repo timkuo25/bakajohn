@@ -17,7 +17,7 @@ const Team = () => {
                 <div className='member-bg'></div>
                 <div className='member-bg'></div>
             </div>
-            <img className='baka' src={require('../../images/team/team_john.png')} width={'40%'}></img>
+            <img className='baka' src={require('../../images/team/team_john.png')}></img>
         </div>
     );
 }
