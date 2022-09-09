@@ -15,6 +15,7 @@ const Footer = () => {
                     <img src={require('../../images/footer/instagram.png')} alt='' width={50}></img>
                 </a>
             </div>
+            <a href='https://swflab-official.web.app/'> swfLab </a>
         </div>
     );
 }

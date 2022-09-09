@@ -44,17 +44,17 @@ const Intro = () => {
                 <img className='right-arrow' src={right_arrow} onClick={() => changeImage(true)}></img>
             </div>
             <p className='text'>
-            Once upon a time, there was a guy named John. John is a lovely person who likes to play the guitar. John has a beautiful girlfriend, Jenny. Every 14th of every month, John always created a song for Jenny. Like every boy falling in love, he can do anything for his lover just to see her smile. 
+            &emsp;&emsp;Once upon a time, there was a guy named John. John is a lovely person who likes to play the guitar. John has a beautiful girlfriend, Jenny. Like every boy falling in love, he can do anything for his lover just to see her smile. 
             <br/><br/>
-            However, things were not going well all the time. Jenny was attracted to another guy, "Bagajong" from Taiwan. Jenny was obsessed with Bagajong's tattoo and his fierce appearance. In the end, Jenny cuckolded John and started a relationship with Bagajong. 
+            &emsp;&emsp;However, things were not going well all the time. Jenny was attracted to another guy, "Bagajong" from Taiwan. Jenny was obsessed with Bagajong's tattoo and his fierce appearance. In the end, Jenny cuckolded John and started a relationship with Bagajong. 
             <br/><br/>
-            After losing the love of his life, John lost his mind entirely. He became angry day by day. Finally, he becomes Bakajohn
+            &emsp;&emsp;After losing the love of his life, John lost his mind entirely. He became angry day by day. Finally, he becomes Bakajohn
             <br/><br/>
 
             ---
             <br/><br/>
 
-            Every Bakajohn is a free mint dynamic NFT collectible. After each transaction, our picture will change its characteristics. It's a nice guy at first, but it will become more and more angry.
+            &emsp;&emsp;Every Bakajohn is a free mint dynamic NFT collectible. After each transaction, our picture will change its characteristics. It's a nice guy at first, but it will become more and more angry.
             <br/><br/>
 
             - step 1 - Normal
