@@ -5,12 +5,13 @@
     justify-content: center;
     width: 100%;
     height: 740%;
+    /* background-color: rgb(145, 125, 55); */
     background-image: url('../../images/long_bg.png');
     background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 600px) {
     .app{
-        height: 1200%;
+        height: 800%;
     }
 }

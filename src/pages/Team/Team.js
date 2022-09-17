@@ -18,75 +18,88 @@ const Team = () => {
     const memberData = [
         {
             name: 'FoodChain',
-            position: 'Smart Contract Developer'
+            position: 'Smart Contract Developer',
+            image: 'food_chain'
         },
         {
             name: '夏到政傑',
-            position: 'Artist'
+            position: 'Artist',
+            image: 'xia'
         },
         {
             name: '李禎宜',
-            position: 'Artist'
+            position: 'Artist',
+            image: 'lee'
         },
         {
             name: 'Alu',
-            position: 'Consultant'
+            position: 'Consultant',
+            image: 'alu'
         },
         {
             name: 'CookSen',
-            position: 'Front End Developer'
+            position: 'Front End Developer',
+            image: 'cooksen'
         },
         {
             name: 'Tck',
-            position: 'Front End Developer'
+            position: 'Front End Developer',
+            image: 'tck'
         },
         {
             name: 'ExcitedMail',
-            position: 'Back End Developer'
+            position: 'Back End Developer',
+            image: 'excited_mail'
         },
         {
             name: 'Becca',
-            position: 'Back End Developer'
+            position: 'Back End Developer',
+            image: 'becca'
         },
         {
             name: 'Corn',
-            position: 'Marketing'
+            position: 'Marketing',
+            image: 'corn',
         },
         {
             name: 'NN',
-            position: 'Marketing'
+            position: 'Marketing',
+            image: 'nn'
         },
         {
             name: 'Jack',
-            position: 'Marketing'
+            position: 'Marketing',
+            image: 'jack'
         },
         {
             name: 'theyhw',
-            position: 'Marketing'
+            position: 'Marketing',
+            image: 'theyhw'
+
         },
     ];
 
     return (
         <div id='team'>
             <div className='members'>
-                <img className='left-page' src={left_arrow} onClick={() => changePage(false)}></img>
+                <img className='left-page' src={left_arrow} onClick={() => changePage(false)} />
                 <div className='member-bg'>
-                    <img src={require('../../images/nft/1.png')}/>
+                    <img src={require(`../../images/team/${memberData[4*(page-1)].image}.png`)}/>
                     <p className='name'>{memberData[4*(page-1)].name}</p>
                     <p className='pos'>{memberData[4*(page-1)].position}</p>
                 </div>
                 <div className='member-bg'>
-                    <img src={require('../../images/nft/1.png')}/>
+                    <img src={require(`../../images/team/${memberData[4*(page-1)+1].image}.png`)}/>
                     <p className='name'>{memberData[4*(page-1)+1].name}</p>
                     <p className='pos'>{memberData[4*(page-1)+1].position}</p>
                 </div>
                 <div className='member-bg'>
-                    <img src={require('../../images/nft/1.png')}/>
+                    <img src={require(`../../images/team/${memberData[4*(page-1)+2].image}.png`)}/>
                     <p className='name'>{memberData[4*(page-1)+2].name}</p>
                     <p className='pos'>{memberData[4*(page-1)+2].position}</p>
                 </div>
                 <div className='member-bg'>
-                    <img src={require('../../images/nft/1.png')}/>
+                    <img src={require(`../../images/team/${memberData[4*(page-1)+3].image}.png`)}/>
                     <p className='name'>{memberData[4*(page-1)+3].name}</p>
                     <p className='pos'>{memberData[4*(page-1)+3].position}</p>
                 </div>

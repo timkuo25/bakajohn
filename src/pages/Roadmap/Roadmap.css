@@ -55,10 +55,20 @@
     color: #fff;
 }
 
+@media only screen and (max-width: 1200px) {
+    .description{
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .roadmap {
+        height: 60%;
+    }
+
     .roadmap-title {
         width: 70%;
-        height: 6%;
+        height: 10%;
     }
     
     .roadmap-content {
@@ -70,5 +80,6 @@
         position: static;
         height: 80%;
         width: 80%;
+        transform: translateY(50px);
     }
 }

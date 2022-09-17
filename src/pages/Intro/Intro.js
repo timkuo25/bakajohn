@@ -9,7 +9,6 @@ import cloud_3 from '../../images/intro/cloud_3.png';
 import cloud_4 from '../../images/intro/cloud_4.png';
 
 import { useState } from 'react';
-// import HorizontalScroll from '../../components/HorizontalScroll/HorizontalScroll';
 
 const Intro = () => {
     const maxImageNum = 5;
@@ -28,12 +27,11 @@ const Intro = () => {
 
     return (
         <div id='intro'>
-            {/* <HorizontalScroll/> */}
-            <img className='left-grid' src={left_grid}></img>
+            <img className='left-grid' src={left_grid} alt=''></img>
             <div className='intro-image'>
-                <img className='left-arrow' src={left_arrow} onClick={() => changeImage(false)}></img>
+                <img className='left-arrow' src={left_arrow} onClick={() => changeImage(false)} alt=''></img>
                 <div className='nft-bg side'>
-                    <img src={centerNum === 1 ? null : require(`../../images/nft/${centerNum - 1}.png`)} width={'100%'}></img>
+                    <img src={centerNum === 1 ? null : require(`../../images/nft/${centerNum - 1}.png`)} width={'100%'} alt=''></img>
                 </div>
                 <div className='nft-bg'>
                     <img src={require(`../../images/nft/${centerNum}.png`)} width={'120%'}></img>
@@ -44,9 +42,9 @@ const Intro = () => {
                 <img className='right-arrow' src={right_arrow} onClick={() => changeImage(true)}></img>
             </div>
             <p className='text'>
-            &emsp;&emsp;Once upon a time, there was a guy named John. John is a lovely person who likes to play the guitar. John has a beautiful girlfriend, Jenny. Like every boy falling in love, he can do anything for his lover just to see her smile. 
+            &emsp;&emsp;Once upon a time, there was a guy named John. John was a lovely person who liked to play the guitar. John had a beautiful girlfriend, Jenny. Like every boy falling in love, he can do anything for his lover just to see her smile. 
             <br/><br/>
-            &emsp;&emsp;However, things were not going well all the time. Jenny was attracted to another guy, "Bagajong" from Taiwan. Jenny was obsessed with Bagajong's tattoo and his fierce appearance. In the end, Jenny cuckolded John and started a relationship with Bagajong. 
+            &emsp;&emsp;However, things were not going well. Jenny was attracted to another guy, "Bagajong" from Taiwan. Jenny was obsessed with Bagajong's tattoo and his fierce appearance. In the end, Jenny cuckolded John and started a relationship with Bagajong. 
             <br/><br/>
             &emsp;&emsp;After losing the love of his life, John lost his mind entirely. He became angry day by day. Finally, he becomes Bakajohn
             <br/><br/>

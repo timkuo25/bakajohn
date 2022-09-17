@@ -4,16 +4,18 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-image: url('../../images/team/bg.png');
+    background-size: cover;
 }
 
 .members {
-    width: 45%;
-    height: 80%;
+    width: 55%;
+    height: 90%;
     display: grid;
     grid-template-columns: 10% 35% 35% 10%;
     grid-template-rows: 1fr 1fr;
-    gap: 3%;
     justify-content: center;
+    align-items: center;
 }
 
 .left-page {
@@ -38,7 +40,9 @@
     background-color: rgb(40, 40, 40);
     border-radius: 1.5em;
     color: #fff;
-    /* font-family: Copperplate Gothic; */
+    width: 240px;
+    height: 290px;
+    padding: 10px 0px;
     font-weight: 900;
 }
 
@@ -47,13 +51,13 @@
 }
 
 .member-bg > img{
-    width: 60%;
+    width: 75%;
     border-radius: 1.5em;
     background-color: rgb(20, 20, 20);;
 }
 
 .name {
-    font-size: 30px;
+    font-size: 26px;
 }
 .baka {
     width: 40%;
@@ -67,12 +71,42 @@
     #team {
         justify-content: center;
     }
-    .baka {
-        display: none;
-    }
+
     .members{
         height: 100%;
         width: 100%;
         justify-content: center;
+    }
+
+    .member-bg {
+        margin: auto;
+        padding: 20px 0px;
+        /* width: 185px;
+        height: 215px; */
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .baka {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #team {
+        height: 50%;
+    }
+
+    /* .members {
+        height: 80%;
+    } */
+
+    .member-bg {
+        height: 180px;
+        width: 150px;
+    }
+
+    .name {
+        font-size: 20px;
     }
 }

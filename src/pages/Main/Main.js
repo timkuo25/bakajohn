@@ -8,13 +8,13 @@ import Faq from '../Faq/Faq';
 import Roadmap from '../Roadmap/Roadmap';
 import Footer from '../Footer/Footer';
 
-const Main = ({ accounts, setAccounts }) => {
+const Main = ({ accounts, setAccounts, numMint, setNumMint}) => {
     return (
         <div className='main'>
             <Navbar/>
             <Intro/>
             <Roadmap/>
-            <Mint accounts={accounts} setAccounts={setAccounts}/>
+            <Mint accounts={accounts} setAccounts={setAccounts} numMint={numMint} setNumMint={setNumMint}/>
             <Gallery/>
             <Team/>
             <Faq/>
